@@ -145,6 +145,38 @@ Connect and run multiple models together seamlessly
 
 ---
 
+## ⚠️ IMPORTANT NOTE - Current Version Support
+
+<div style="background-color: #FFF3CD; border-left: 5px solid #FF6B6B; padding: 15px; border-radius: 5px; margin: 20px 0;">
+
+### 🎯 Currently Supported Commands (v1.0):
+
+| Feature | Status | Commands |
+|:---:|:---:|---|
+| 🗣️ **LLM Models** | ✅ <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">**AVAILABLE**</span> | <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">`MAKE_MODLE`</span> • <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">`TRAIN_MODEL`</span> • <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">`RUN_MODEL`</span> |
+| 🎨 **Image Generation** | ✅ <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">**AVAILABLE**</span> | <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">`MAKE_MODLE`</span> • <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">`TRAIN_MODEL`</span> • <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">`RUN_MODEL`</span> |
+| 🔧 **LoRA Fine-tuning** | ✅ <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">**AVAILABLE**</span> | <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">`MAKE_LORA`</span> (LLM only) |
+
+### 🚀 Coming in Next Update (v1.1):
+
+| Feature | Status | Details |
+|:---:|:---|---|
+| 📊 **Text Classification** | ⏳ Planned | Training and inference support |
+| 🎬 **Video Generation** | ⏳ Planned | Multi-frame video synthesis |
+| 🎤 **Speech-to-Text** | ⏳ Planned | Audio transcription models |
+| 🔊 **Text-to-Speech** | ⏳ Planned | Audio generation from text |
+| 🎵 **Audio Generation** | ⏳ Planned | Music and sound synthesis |
+| 👁️ **Image Classification** | ⏳ Planned | Image recognition models |
+| 🎯 **Object Detection** | ⏳ Planned | Bounding box prediction |
+| 🔀 **Segmentation** | ⏳ Planned | Pixel-level classification |
+| 🌐 **Multimodal Models** | ⏳ Planned | Combined vision-language models |
+
+> 📌 **Note:** This guide documents all planned features. When using MAS v1.0, only the commands listed above as **AVAILABLE** will work. Attempting to use other model types will result in an error. Stay tuned for updates!
+
+</div>
+
+---
+
 ## 📦 Installation
 
 > Choose the installation method that best fits your needs
