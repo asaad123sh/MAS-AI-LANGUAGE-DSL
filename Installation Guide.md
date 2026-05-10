@@ -5,7 +5,7 @@
 ![Version](https://img.shields.io/badge/Version-MAS%2F1-brightgreen?style=for-the-badge&logo=codacy)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.10%2B-yellow?style=for-the-badge&logo=python)
+![Python](https://img.shields.io/badge/Python-3.8%2B-yellow?style=for-the-badge&logo=python)
 
 **Transform AI Model Development with Simplicity & Power**
 
@@ -17,25 +17,27 @@
 
 ## 📋 Table of Contents
 
-- [🎯 Introduction](#introduction)
-- [📦 Installation](#installation)
-- [📂 File Structure](#file-structure)
-- [🔤 Syntax Overview](#syntax-overview)
-- [⚙️ Core Commands](#core-commands)
-- [🎓 Advanced Features](#advanced-features)
-- [💼 Examples](#examples)
-- [🔧 CLI Commands](#cli-commands)
-- [🚨 Troubleshooting](#troubleshooting)
-- [📖 Best Practices](#best-practices)
-- [📚 Additional Resources](#additional-resources)
+| # | Section | Link | Description |
+|:---:|:---|:---|---|
+| 1️⃣ | 🎯 Introduction | [Go](#introduction) | Overview of MAS language and key features |
+| 2️⃣ | 📦 Installation | [Go](#installation) | Setup instructions for different platforms |
+| 3️⃣ | 📂 File Structure | [Go](#file-structure) | .MASAI file format and important rules |
+| 4️⃣ | 🔤 Syntax Overview | [Go](#syntax-overview) | Commands, data types, and naming conventions |
+| 5️⃣ | ⚙️ Core Commands | [Go](#core-commands) | All 10 essential MAS commands explained |
+| 6️⃣ | 🎓 Advanced Features | [Go](#advanced-features) | Dependency management, sharding, heat sensing |
+| 7️⃣ | 💼 Examples | [Go](#examples) | 7 practical real-world examples |
+| 8️⃣ | 🔧 CLI Commands | [Go](#cli-commands) | Command-line usage and dependencies |
+| 9️⃣ | 🚨 Troubleshooting | [Go](#troubleshooting) | Common errors and solutions |
+| 🔟 | 📖 Best Practices | [Go](#best-practices) | DO's, DON'Ts, and advanced tips |
+| 1️⃣1️⃣ | 📚 Additional Resources | [Go](#additional-resources) | Links and community support |
 
 ---
 
 ## 🎯 Introduction
 
-> **MAS (Master Artificial Structured AI Language)** is a revolutionary domain-specific language (DSL) designed to simplify AI model creation, training, and deployment.
+> <span style="background-color: #FFE5B4; padding: 2px 6px; border-radius: 3px;">**MAS (Master Artificial Structured AI Language)**</span> is a revolutionary <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">domain-specific language (DSL)</span> designed to simplify <span style="background-color: #E8D5F2; padding: 2px 6px; border-radius: 3px;">AI model creation, training, and deployment</span>.
 
-With MAS, you can build sophisticated AI models using simple, human-readable commands instead of complex Python code. No more wrestling with framework complexities—focus on what matters! ✨
+With MAS, you can build sophisticated AI models using <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">simple, human-readable commands</span> instead of complex Python code. No more wrestling with framework complexities—focus on what matters! ✨
 
 ### ✨ Key Features
 
@@ -198,7 +200,7 @@ You should see a list of available commands. If you get any errors, check the **
 
 ### 📄 .MASAI File Format
 
-> MAS programs are written in files with the `.MASAI` extension (case-insensitive: `.masai` or `.MASAI`)
+> MAS programs are written in files with the <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px; font-weight: bold;">.MASAI extension</span> (case-insensitive: `.masai` or `.MASAI`)
 
 **Basic Structure:**
 
@@ -223,19 +225,19 @@ MAKE_MODLE(
 <td>
 
 > 🔴 **MUST DO**
-> - First line must be `# MAS/1` (MAS version signature)
-> - File extension must be `.MASAI` or `.masai`
+> - First line must be <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px; font-weight: bold;">`# MAS/1`</span> (MAS version signature)
+> - File extension must be <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px; font-weight: bold;">.MASAI or .masai</span>
 > - Use `#` for single-line comments
-> - Only literal values allowed (strings, numbers, booleans, lists, dicts)
+> - Only <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">literal values allowed</span> (strings, numbers, booleans, lists, dicts)
 
 </td>
 <td>
 
 > 🔵 **MUST NOT DO**
-> - ❌ Don't forget the `# MAS/1` header
-> - ❌ Don't use wrong file extension (.mas, .msa, etc.)
-> - ❌ Don't use Python variables or expressions
-> - ❌ Don't use complex logic or loops
+> - ❌ Don't forget the <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px; font-weight: bold;">`# MAS/1` header</span>
+> - ❌ Don't use <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px;">wrong file extension</span> (.mas, .msa, etc.)
+> - ❌ Don't use <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px;">Python variables or expressions</span>
+> - ❌ Don't use <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px;">complex logic or loops</span>
 
 </td>
 </tr>
@@ -304,9 +306,9 @@ MAKE_MODLE(
 
 | Parameter | Type | Description |
 |:---:|:---:|---|
-| `name` | string | Unique identifier for your model |
-| `model_type` | string | Category of AI model |
-| `architecture` | string | Neural network structure |
+| <span style="background-color: #FFE5B4; padding: 2px 6px; border-radius: 3px;">**`name`**</span> | string | Unique identifier for your model |
+| <span style="background-color: #FFE5B4; padding: 2px 6px; border-radius: 3px;">**`model_type`**</span> | string | Category of AI model |
+| <span style="background-color: #FFE5B4; padding: 2px 6px; border-radius: 3px;">**`architecture`**</span> | string | Neural network structure |
 
 **📋 Common Optional Parameters:**
 
@@ -348,7 +350,7 @@ TRAIN_MODEL(
 ```
 
 **✅ Key Parameters:**
-- `name` ⭐ **[REQUIRED]** - Name of the model to train
+- `name` ⭐ <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px; font-weight: bold;">**[REQUIRED]**</span> - Name of the model to train
 - Any parameter from `MAKE_MODLE` can be overridden here
 
 **🎨 Special Values:**
@@ -370,7 +372,7 @@ LOAD_MODLE(
 ```
 
 **✅ Parameters:**
-- `name` ⭐ **[REQUIRED]** - Name of the model to load
+- `name` ⭐ <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px; font-weight: bold;">**[REQUIRED]**</span> - Name of the model to load
 - `device` (optional) - `"cpu"` or `"cuda"` (default: `"cpu"`)
 
 ---
@@ -389,7 +391,7 @@ RUN_MODEL(
 ```
 
 **✅ Parameters:**
-- `name` ⭐ **[REQUIRED]** - Name of the loaded model
+- `name` ⭐ <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px; font-weight: bold;">**[REQUIRED]**</span> - Name of the loaded model
 - `prompt` (optional) - Input text/data
 - `max_tokens` (optional) - Maximum generation length
 
@@ -410,8 +412,8 @@ MAKE_LORA(
 ```
 
 **✅ Parameters:**
-- `name` ⭐ **[REQUIRED]** - Name for the LoRA adapter
-- `base_model` ⭐ **[REQUIRED]** - Name of the base model
+- `name` ⭐ <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px; font-weight: bold;">**[REQUIRED]**</span> - Name for the LoRA adapter
+- `base_model` ⭐ <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px; font-weight: bold;">**[REQUIRED]**</span> - Name of the base model
 - `rank` (optional) - LoRA rank (default: 8)
 - `alpha` (optional) - LoRA alpha scaling (default: 16)
 
@@ -459,8 +461,8 @@ CONNECT_MODELS(
 ```
 
 **✅ Parameters:**
-- `group` ⭐ **[REQUIRED]** - Name for the model group
-- `models` ⭐ **[REQUIRED]** - List of model names to connect
+- `group` ⭐ <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px; font-weight: bold;">**[REQUIRED]**</span> - Name for the model group
+- `models` ⭐ <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px; font-weight: bold;">**[REQUIRED]**</span> - List of model names to connect
 
 ---
 
@@ -496,7 +498,7 @@ RUN_ALL_MODLES(
 
 ### 1️⃣ Automatic Dependency Management
 
-MAS automatically installs required packages based on model type - **no manual pip commands needed!**
+MAS automatically installs required packages based on model type - <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px; font-weight: bold;">no manual pip commands needed!</span>
 
 **✅ To use automatic installation:**
 ```python
@@ -509,7 +511,7 @@ MAKE_MODLE(
 
 **❌ To disable:**
 ```python
-auto_install_dependencies=False
+<span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px;">auto_install_dependencies=False</span>
 ```
 
 **🔧 Manual dependency installation using MAS CLI:**
@@ -535,7 +537,7 @@ mas -remove .pt --cpu
 
 ### 2️⃣ Model Sharding
 
-For large models, enable automatic sharding to **handle memory constraints gracefully**:
+For large models, enable automatic sharding to <span style="background-color: #E8D5F2; padding: 2px 6px; border-radius: 3px; font-weight: bold;">handle memory constraints gracefully</span>:
 
 ```python
 MAKE_MODLE(
@@ -551,7 +553,7 @@ MAKE_MODLE(
 
 ### 3️⃣ Hardware Heat Sensing
 
-MAS monitors system temperature and **throttles execution** to prevent overheating and hardware damage:
+MAS monitors system temperature and <span style="background-color: #FFE5B4; padding: 2px 6px; border-radius: 3px; font-weight: bold;">throttles execution</span> to prevent overheating and hardware damage:
 
 ```python
 MAKE_MODLE(
@@ -567,7 +569,7 @@ MAKE_MODLE(
 
 ### 4️⃣ Interactive File Pickers
 
-Use `"userinput"` to open **GUI file/folder pickers** - no command-line navigation needed:
+Use `"userinput"` to open <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px; font-weight: bold;">GUI file/folder pickers</span> - no command-line navigation needed:
 
 ```python
 TRAIN_MODEL(
@@ -920,7 +922,7 @@ First non-empty line must be exactly: # MAS/1
 ```
 
 **✅ Solution:**
-Add `# MAS/1` as the **first line** of your file. Nothing before it!
+Add <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px; font-weight: bold;">`# MAS/1`</span> as the <span style="background-color: #FFE5B4; padding: 2px 6px; border-radius: 3px; font-weight: bold;">first line</span> of your file. <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px; font-weight: bold;">Nothing before it!</span>
 
 ---
 
@@ -933,9 +935,9 @@ GuidedConfigError: Field 'vocab_size' is incompatible with model_type 'image_gen
 
 **✅ Solution:**
 Remove text-specific parameters from image models. Check model type compatibility:
-- 📚 **Text models** (`llm`, `text_classification`) → Use `vocab_size`, `tokenizer_type`
-- 🖼️ **Image models** (`image_gen`, `image_classification`) → Use `image_size`, `image_channels`
-- 🎬 **Video models** (`video_gen`) → Use `video_fps`, `video_resolution`
+- 📚 **Text models** (<span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">`llm`, `text_classification`</span>) → Use `vocab_size`, `tokenizer_type`
+- 🖼️ **Image models** (<span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">`image_gen`, `image_classification`</span>) → Use `image_size`, `image_channels`
+- 🎬 **Video models** (<span style="background-color: #E8D5F2; padding: 2px 6px; border-radius: 3px;">`video_gen`</span>) → Use `video_fps`, `video_resolution`
 
 ---
 
@@ -965,7 +967,7 @@ Unsupported file extension '.mas'
 ```
 
 **✅ Solution:**
-Rename your file to use `.MASAI` extension (uppercase or lowercase - both work!)
+Rename your file to use <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px; font-weight: bold;">.MASAI extension</span> (uppercase or lowercase - both work!)
 
 ---
 
@@ -1018,9 +1020,9 @@ After running `MAKE_MODLE`, you'll find:
 
 | Category | Supported Architectures |
 |:---:|---|
-| **🗣️ LLM** | `transformer_decoder` `gpt` `bert` `t5` |
-| **🖼️ Image** | `unet` `vae` `gan` `vit` (Vision Transformer) |
-| **🎤 Audio** | `wav2vec` `whisper` `tacotron` |
+| **🗣️ LLM** | <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">`transformer_decoder`</span> <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">`gpt`</span> <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">`bert`</span> <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">`t5`</span> |
+| **🖼️ Image** | <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">`unet`</span> <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">`vae`</span> <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">`gan`</span> <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">`vit`</span> (Vision Transformer) |
+| **🎤 Audio** | <span style="background-color: #E8D5F2; padding: 2px 6px; border-radius: 3px;">`wav2vec`</span> <span style="background-color: #E8D5F2; padding: 2px 6px; border-radius: 3px;">`whisper`</span> <span style="background-color: #E8D5F2; padding: 2px 6px; border-radius: 3px;">`tacotron`</span> |
 
 ---
 
@@ -1032,33 +1034,33 @@ After running `MAKE_MODLE`, you'll find:
 
 ### ✅ DO
 
-- ✔️ **Start small** - Test with small models first
-- ✔️ **Use version control** - Track your .masai files
-- ✔️ **Comment your code** - Use `#` for documentation
-- ✔️ **Validate early** - Run `mas compile` to check syntax
-- ✔️ **Monitor resources** - Set `max_ram_allocation`
+- ✔️ <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">**Start small**</span> - Test with small models first
+- ✔️ <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">**Use version control**</span> - Track your .masai files
+- ✔️ <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">**Comment your code**</span> - Use `#` for documentation
+- ✔️ <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">**Validate early**</span> - Run `mas compile` to check syntax
+- ✔️ <span style="background-color: #D4F1D4; padding: 2px 6px; border-radius: 3px;">**Monitor resources**</span> - Set `max_ram_allocation`
 
 </td>
 <td width="50%">
 
 ### ❌ DON'T
 
-- ❌ **Don't skip the MAS/1 header**
-- ❌ **Don't use wrong extensions**
-- ❌ **Don't set batch_size too high**
-- ❌ **Don't ignore warnings**
-- ❌ **Don't leave unsharded large models**
+- ❌ <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px;">**Don't skip the MAS/1 header**</span>
+- ❌ <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px;">**Don't use wrong extensions**</span>
+- ❌ <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px;">**Don't set batch_size too high**</span>
+- ❌ <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px;">**Don't ignore warnings**</span>
+- ❌ <span style="background-color: #FFE5E5; padding: 2px 6px; border-radius: 3px;">**Don't leave unsharded large models**</span>
 
 </td>
 </tr>
 </table>
 
 **Advanced Best Practices:**
-1. **Save frequently** - Use appropriate `save_format` (prefer `safetensors`)
-2. **Test incrementally** - Build complex pipelines step by step
-3. **Use LoRA for experiments** - Faster iteration with less compute
-4. **Enable checkpointing** - Reduce memory footprint significantly
-5. **Monitor heat** - Enable hardware heat sensing for production
+1. <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">**Save frequently**</span> - Use appropriate `save_format` (prefer <span style="background-color: #E8D5F2; padding: 2px 6px; border-radius: 3px;">`safetensors`</span>)
+2. <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">**Test incrementally**</span> - Build complex pipelines step by step
+3. <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">**Use LoRA for experiments**</span> - Faster iteration with less compute
+4. <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">**Enable checkpointing**</span> - Reduce memory footprint significantly
+5. <span style="background-color: #B4E7FF; padding: 2px 6px; border-radius: 3px;">**Monitor heat**</span> - Enable hardware heat sensing for production
 
 ---
 
