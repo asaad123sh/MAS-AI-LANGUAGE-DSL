@@ -5,7 +5,7 @@
 ![Version](https://img.shields.io/badge/Version-MAS%2F1-brightgreen?style=for-the-badge&logo=codacy)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.8%2B-yellow?style=for-the-badge&logo=python)
+![Python](https://img.shields.io/badge/Python-3.10%2B-yellow?style=for-the-badge&logo=python)
 
 **Transform AI Model Development with Simplicity & Power**
 
