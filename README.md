@@ -181,27 +181,13 @@ Connect and run multiple models together seamlessly
 
 > Choose the installation method that best fits your needs
 
-### 🐍 Method 1: Python Package Installation (For Developers)
-
-<details open>
-<summary><b>Click to expand/collapse</b></summary>
-
-```bash
-# Clone or download the project
-cd MAS-project-folder
-
-# Install in development mode
-python -m pip install -e .
-```
-
-</details>
-
 ---
 
-### 🪟 Method 2: Windows Installer (For End Users)
+### Windows Installer (For End Users)
 
 <details open>
 <summary><b>Click to expand/collapse</b></summary>
+https://github.com/asaad123sh/MAS-AI-LANGUAGE-DSL/releases/download/%23MAS/MAS-AI-Language-Setup-0.1.0.exe
 
 1. 📥 Download either `MAS-AI-Language-Setup-<version>.exe` or `MAS-AI-Language-Setup-<version>.msi`
 2. ▶️ Run the installer wizard
